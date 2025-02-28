@@ -1,0 +1,64 @@
+@charset "utf-8";
+* {box-sizing: border-box;}
+/* body{
+    
+}
+main{
+    align-items: center;
+    text-align: center;
+} */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f8f8f8; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#alarm_box {
+    width: 390px;
+
+    background: #d9d9d9;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;    
+}
+
+h2 {
+    /* font-size: 18px;
+    font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    /* margin-top: 66px; */
+    border-top: 1px solid #000;
+
+}
+
+.buttons button {
+    flex: 1;
+    height: 66px;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttons button:first-child {
+    border-right: 1px solid #000;
+}
+
+.buttons button:hover {
+    background: #ddd;
+}

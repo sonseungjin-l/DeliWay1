@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인창 첫번째</title>
+    <style>
+        :root{
+            /* #834EC3 */
+
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        h1{
+            /* position: absolute; */
+            left: 166px; 
+            top: 227px;
+            /* width: 24.56%; */
+            /* height: 10.36%; */
+            align-items: center;
+            text-align: center;
+            /* padding: 118px 118px 162px; */
+        }
+        header h1 a{
+            font-family: 'Delmon Delicate';
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 60px;
+            color: #834EC3;
+        }
+        main{
+            position: static;
+            /* Smart layout */
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0px;
+            margin: 162px auto;
+        }
+        div{
+            position: relative;
+            left: 0px;
+            top: 0px;
+            width: 344px;
+            height: 70px;
+            gap: 15px;
+            align-self: stretch;
+            z-index: 0;
+            margin: 15px 0px;
+        }
+        div a{
+            text-decoration-line: none;
+            text-align: center;
+        }
+        div:nth-of-type(1){
+            /* Smart layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            border-radius: 6px;
+            align-self: stretch;
+            z-index: 0;
+            background: #fee500;
+        }
+
+        div:nth-of-type(1) span{
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: normal;
+            display: flex;
+            align-items: flex-end;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+            color: rgba(0, 0, 0, 0.85);
+        }
+        div:nth-of-type(2){
+            /* Smart layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            border-radius: 6px;
+            align-self: stretch;
+            z-index: 1;
+            background: #03c75a;
+        }
+        div:nth-of-type(2) span{
+            /* position: static;
+            left: 37px;
+            top: 0px;
+            width: 123px;
+            height: 19px;
+            z-index: 1; */
+            /* text */
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: normal;
+            display: flex;
+            align-items: flex-end;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+        div:nth-of-type(3){
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            border-radius: 6px;
+            /* align-self: stretch; */
+            /* z-index: 1; */
+            opacity: 1;
+            background: #834EC3;
+        }
+        div:nth-of-type(3) span{
+            /* left: 86px;
+            top: 26px;
+            width: 172px;
+            height: 19px; */
+            /* body */
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: normal;
+            display: flex;
+            align-items: flex-end;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="#">Deliway</a></h1>
+    </header>
+    <main>
+        <div>
+            <a href="#"><span>카카오로 시작하기</span></a>
+        </div>
+        <div>
+            <a href="#"><span>네이버로 시작하기</span></a>
+        </div>
+        <div>
+            <a href="#"><span>델리웨이 계정으로 로그인</span></a>
+        </div>
+    </main>
+</body>
+</html>
